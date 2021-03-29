@@ -1,0 +1,29 @@
+.about_us {
+    margin-top: 94px;
+}
+
+.features_list {
+    height: 280px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.features_item {
+    width: calc(100% / 4 - 30px);
+    margin-top: 30px;
+    margin-left: 18px;  
+}
+
+
+.about_us_icon_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+

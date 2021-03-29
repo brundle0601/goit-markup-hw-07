@@ -1,0 +1,48 @@
+.hero {
+    height: 600px;
+    background: #2F303A;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+        url(../img/pictures/header_picture.jpg);
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.title {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 205px;
+}
+
+    
+.bottom_position {
+   padding-top: 45px;
+   padding-left: 500px;
+}
+
+
+.modal_button {
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color: #2196F3;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #FFFFFF;
+    padding: 12px 30px;
+    cursor: pointer;
+}

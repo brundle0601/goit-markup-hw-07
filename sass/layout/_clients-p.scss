@@ -1,0 +1,37 @@
+.clients_section {
+    height: 370px;
+}
+
+.clients_list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+
+}
+
+
+
+.clients_li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 90px;
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+
+
+.clients_icons {
+    fill: #AFB1B8;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+
+.clients_li:hover .clients_icons {
+    fill: #2196F3;
+}
+
